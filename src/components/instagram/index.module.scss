@@ -1,0 +1,85 @@
+.instagram {
+  p {
+    color: gray;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+  h1 {
+    font-family: "Sansita Swashed", system-ui;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    font-family: " system-ui";
+    color: #333;
+    margin-top: 40px;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    input {
+      width: 320px;
+      height: 50px;
+      outline: none;
+      border-radius: 6px;
+      padding-left: 10px;
+      border: none;
+      border: 1.3px solid gray;
+      font-size: 14px;
+    }
+    input::placeholder {
+      font-weight: 200;
+      letter-spacing: 0.4px;
+    }
+  }
+  .a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a {
+      cursor: pointer;
+      color: rgba(8, 98, 252, 0.836);
+      font-size: 18px;
+      font-weight: 600;
+      display: flex;
+      align-items: end;
+      margin-top: 13px;
+      margin-left: 185px;
+    }
+    button {
+      width: 320px;
+      height: 40px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+      background: rgba(8, 98, 252, 0.836);
+      color: white;
+      margin-top: 30px;
+    }
+  }
+  .h3 {
+    
+    h3 {
+      font-size: 16px;
+      font-weight: 500;
+      color: gray;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      span {
+        color: rgba(8, 98, 252, 0.836);
+        cursor: pointer;
+      }
+    }
+  }
+}
